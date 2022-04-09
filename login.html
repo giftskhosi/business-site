@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Business Space</h1>
+            <div class="navigation">
+                <ul class="navigate">
+                    <li><a href="index.html">Home</a></li>
+                    
+                </ul>
+            </div>
+        </header>
+
+        <div class="information">
+            <p id="error"></p>
+
+            <form name="myForm">
+                <h2>Login Page:</h2>  
+                <div class="input-info">           
+                    <label>Username:</label><br>
+                    <input type="text" class="text-input" placeholder="Enter Username..." id="username"><br>
+                    <label>Password:</label><br>
+                    <input type="password" class="text-input" placeholder="Enter Password..." id="password"><br>
+                    
+                    <button type="submit" onclick="loginFunc()" class="btn-style-login" id="btn-login">Login</button>
+                    <p>If haven't signed up, click <a href="signup.html">Here</a> </p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>

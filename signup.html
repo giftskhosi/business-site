@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Business Space</h1>
+            <div class="navigation">
+                <ul class="navigate">
+                    <li><a href="index.html">Home</a></li>
+                    
+                </ul>
+            </div>
+        </header>
+
+        <div class="information">
+            <form name="myForm">
+                <h2>Signup Page:</h2>
+                <div class="input-info">
+                    <label>Name:</label><br>
+                    <input type="text" class="text-input" placeholder="Enter name..." id="name"><br>
+                    <label>Surname:</label><br>
+                    <input type="text" class="text-input" placeholder="Enter Surname..." id="surname"><br>
+                    <label>gender: </label>
+                    Male<input type="radio" class="radio-input" id="gender" name="gender" value="male"> Female<input type="radio" class="radio-input" name="gender" id="gender" value="female"><br>
+                    <label>Occupation: </label><br>
+                    <input type="text" class="text-input" placeholder="Enter Occupation..." id="occupation"><br>
+                    <label>Email: </label><br>
+                    <input type="email" class="text-input" placeholder="Enter Email..." id="email"><br>
+                    <label>package: </label>
+                    Free trail<input type="radio" class="radio-input" name="package" id="package" value="free"> Premium<input type="radio" class="radio-input" name="package" id="package" value="premium"><br>
+
+                    <button type="submit" class="btn-style" id="btn-submit">Submit</button>
+                    <button type="reset" class="btn-style" id="btn-reset">Reset</button>
+                    <p>If already signed up, click <a href="login.html">Here</a> </p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
